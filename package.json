@@ -1,0 +1,27 @@
+{
+  "name": "better-server",
+  "version": "1.0.0",
+  "description": "file transition in LAN",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OPY-bbt/better-server.git"
+  },
+  "keywords": [
+    "file",
+    "transition",
+    "LAN",
+    "node",
+    "server"
+  ],
+  "author": "zy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OPY-bbt/better-server/issues"
+  },
+  "homepage": "https://github.com/OPY-bbt/better-server#readme"
+}
