@@ -95,6 +95,11 @@ const handleUploadFile = (req, res) => {
   form.encoding = 'utf-8';
   form.uploadDir = targetDir;
   form.keepExtensions = true;
+
+  // form.on('progress', function(bytesReceived, bytesExpected) {
+  //   console.log(`uploading... ${bytesReceived / bytesExpected * 100}%`);
+  // });
+
   form.parse(req, function(err, fields, files) {
     res.writeHead(301, {
       Location: url
