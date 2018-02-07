@@ -47,7 +47,7 @@ const generateHTML = (absolutePath) => {
       <br />
       <form method="post" action="" enctype='multipart/form-data'>
         <label for="upload">上传文件</label>
-        <input id="upload" type="file" name="file"/>
+        <input id="upload" type="file" name="file" required/>
         <input type="submit" value="提交" />
       </form>
     </body>
