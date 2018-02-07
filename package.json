@@ -1,6 +1,6 @@
 {
   "name": "better-server",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "file transition in LAN",
   "main": "index.js",
   "bin": "index.js",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/OPY-bbt/better-server/issues"
   },
-  "homepage": "https://github.com/OPY-bbt/better-server#readme"
+  "homepage": "https://github.com/OPY-bbt/better-server#readme",
+  "dependencies": {
+    "formidable": "^1.1.1"
+  }
 }
